@@ -1,0 +1,38 @@
+<html>
+<head>
+	
+
+<script type="text/javascript" src="jquery-2.2.2.min.js"></script>
+
+
+</head>
+
+<body>
+
+
+	<img id="milk" src="http://i.imgur.com/GPRGZBB.png"/>
+
+	<script>
+for(var i=0; i <= 99; i=i+1){
+	console.log(i);
+	if(i!=20&&i!=40&&i!=60){
+
+		$("body").append("<p>"+i+" bottles of milk on the wall</p>");
+		$("body").append($("#milk").clone());
+
+	}
+
+}
+
+for(var i=99; i >= 0; i=i-1){
+	console.log(i);
+	if(i!=25&&i!=50&&i!=75){
+	$("body").append("<p>"+i+" bottles of milk on the wall</p>");
+	$("body").append($("#milk").clone());
+
+	}
+}
+	</script>
+
+</body>
+</html>

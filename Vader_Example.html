@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
+    <title>LUKE I AM YOUR FATHER!!!!!!!!!</title>
+    
+    <style>
+      div { padding: 1em; }
+      
+      #vader-example { background-color: hotpink; }
+      #bieber-time { background-color: cornsilk; }
+      #count-up { background-color: lightblue; }
+      #skip { background-color: tan; }
+      #sum { background-color: coral; }
+    </style>
+  </head>
+
+  <body>
+    <h1>DUH,DUH,DUH,DUH DUH,DUH,DUH DUH</h1>
+    <p>THE FORCE YOU WILL USE!!</p>
+    
+    <!-- Div used for JQuery append() example -->
+    <div id="vader-example" class="bieber"></div>
+    
+    <!-- Divs for the exercises -->
+    <div id="bieber-time" class="bieber"></div>
+    <div id="count-up"></div>
+    <div id="skip"></div>
+    <div id="sum"></div>
+    
+
+    <script>
+      
+      // Your code for exercises below:
+
+
+               for(var i = 0; i <= 100; i = i + 1){
+          $('#vader-example').append("<p>I am your father</p>");
+          $('#vader-example').append("<p>" + i + "</p>");
+        }
+      
+    </script>
+  </body>
+</html>
